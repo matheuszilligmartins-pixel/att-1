@@ -1,0 +1,25 @@
+*{
+height: 100%;
+
+}
+
+
+h1{
+text-align: center ;
+color:aquamarine;
+
+}
+p{
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+color: antiquewhite;
+text-align: right;
+
+}
+body{
+/*background-image:linear-gradient(to bottom, red, blue, orange);*/
+background-color: rgb(104, 24, 0);
+background-image: url(chess-knight-alt.png);
+background-repeat: no-repeat;
+background-position-x: center;
+background-position-y: center ;
+}
