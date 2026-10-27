@@ -1,25 +1,36 @@
 *{
-height: 100%;
+
+min-height: 100%;
 
 }
 
+.container{
+    display: flex   ;
+    height: 2000px;
+    width: 2000px;
+    background-color: black;
+}
+.box1{
+height: 300px;
+width: 300px;
+background-color: cyan;
+border-style: dashed;
+border-color: brown;
+border-radius: 75px;
+margin: 30px;
+}
+.box2{
 
-h1{
-text-align: center ;
-color:aquamarine;
+    height: 450px;
+    width: 450px;
+    background-color: red;
+
 
 }
-p{
-font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-color: antiquewhite;
-text-align: right;
+.box3{
 
-}
-body{
-/*background-image:linear-gradient(to bottom, red, blue, orange);*/
-background-color: rgb(104, 24, 0);
-background-image: url(chess-knight-alt.png);
-background-repeat: no-repeat;
-background-position-x: center;
-background-position-y: center ;
+
+    height: 600px;
+width: 600px;
+background-color: green;
 }
